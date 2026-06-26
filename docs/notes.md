@@ -63,3 +63,24 @@
 ### 今天学到的新命令
 - git status  → 查看当前仓库状态（哪些文件改过）
 - git diff    → 查看具体改了什么内容
+
+
+
+每天必做	命令
+看看改了什么	git status
+看看具体改动	git diff
+全部暂存	git add .
+提交	git commit -m "说明"
+推送	git push
+拉取最新	git pull
+
+分支操作	命令
+新建并切换分支	git checkout -b 分支名
+切换分支	git checkout 分支名
+查看所有分支	git branch
+推送分支	git push origin 分支名
+
+救命操作	命令
+丢弃未提交的改动	git checkout -- 文件名
+撤销最近一次提交	git reset --soft HEAD~1
+查看历史	git log --oneline
