@@ -84,3 +84,20 @@
 丢弃未提交的改动	git checkout -- 文件名
 撤销最近一次提交	git reset --soft HEAD~1
 查看历史	git log --oneline
+
+
+## Linux 每天用
+
+| 命令 | 作用 | 例子 |
+|------|------|------|
+| pwd | 我在哪个目录 | pwd |
+| ls | 列出文件 | ls -lh |
+| cd DIR | 进目录 | cd ~/projects |
+| cd .. | 回上层 | cd .. |
+| cat FILE | 看文件全部内容 | cat train.log |
+| head -N FILE | 看前N行 | head -20 train.log |
+| tail -N FILE | 看后N行 | tail -5 train.log |
+| tail -f FILE | 实时追踪 | tail -f train.log |
+| grep "X" FILE | 搜关键词 | grep "loss" train.log |
+| > 文件名 | 保存输出 | grep "loss" log > losses.txt |
+| | (管道) | 左边输出传给右边 | cat log | grep "loss" | tail -3 |
